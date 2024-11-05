@@ -123,6 +123,7 @@ def spin(balance):
     print(f"You won {winnings} on line {winning_lines}")
     return winnings - total_bet
 
+
 def main():
     balance = deposit()
     while True:
